@@ -72,7 +72,7 @@ Using the NRS.sendRequest will be a secure wrapper for your Nxt transactions. Wh
 
 2) Sign the transaction with passphrase
 
-3) broadcast transaction to local Nxt
+3) broadcast transaction to local /public Nxt API
 
 # Documentation
 

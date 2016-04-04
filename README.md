@@ -10,6 +10,16 @@ No passphrase will leave your JavaSscript, check NRS.sendRequest
 
 # Installation
 
+### Public Node
+
+Find a public node with open API and cors enabled on 
+
+http://nxtpeers.com
+
+Hallmarked nodes provide an extra layer of security.
+
+### Localhost
+
 Extraced from NRS Version 1.7.5 https://nxtforum.org/nrs-releases/nrs-v1-7-5/
 Please install Nxt locally and open cors in the configuration as explained here:
 

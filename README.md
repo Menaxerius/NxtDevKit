@@ -19,6 +19,8 @@ Please install Nxt locally and open cors in the configuration as explained here:
 	# Enable Cross Origin Filter for NRS user interface server.
 	nxt.uiServerCORS=true
 
+restart Nxt
+
 https://medium.com/@Damelon/coding-for-nxt-crypto-platform-1-c3580b4cfd38#.vwf0q0b2a
 
 

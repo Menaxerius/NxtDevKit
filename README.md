@@ -8,6 +8,10 @@ The NRS finds the local Nxt instance, any transaction that will go through the w
 
 No passphrase will leave your JavaSscript, check NRS.sendRequest
 
+# Documentation
+
+Extraced from NRS Version 1.7.5 https://nxtforum.org/nrs-releases/nrs-v1-7-5/
+
 # Nxt Api
 
 When Nxt is running go to: http://localhost:7876/test

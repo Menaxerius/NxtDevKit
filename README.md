@@ -38,15 +38,18 @@ https://medium.com/@Damelon/coding-for-nxt-crypto-platform-1-c3580b4cfd38#.vwf0q
 
 ## Nxt Api
 
-When Nxt is running go to: http://localhost:7876/test
+When Nxt is running go to: 
 
-Wiki documentation:
+http://localhost:7876/test
+
+NxtWiki API documentation:
 
 http://nxtwiki.org/wiki/The_Nxt_API
 
 # Use NRS functions
 
-use NRS functions, to submit Nxt requests:
+use NRS functions, to submit Nxt requests, calculate from Assets, NQT, Currencies, Votes and more.
+Use the Nxt Data Cloud, Marketplace, Alias System, see more on https://nxt.org
 
 ## Examples
 

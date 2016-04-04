@@ -22,7 +22,7 @@ Please install Nxt locally and open cors in the configuration as explained here:
 https://medium.com/@Damelon/coding-for-nxt-crypto-platform-1-c3580b4cfd38#.vwf0q0b2a
 
 
-# Nxt Api
+## Nxt Api
 
 When Nxt is running go to: http://localhost:7876/test
 
@@ -34,7 +34,7 @@ http://nxtwiki.org/wiki/The_Nxt_API
 
 use NRS functions, to submit Nxt requests:
 
-# Examples
+## Examples
 
 	 NRS.sendRequest("getBlockchainStatus", {
 					
@@ -60,9 +60,9 @@ Using the NRS.sendRequest will be a secure wrapper for your Nxt transactions. Wh
 
 3) broadcast transaction to local Nxt
 
-## Documentation
+# Documentation
 
-# Variables
+## Variables
 
 https://github.com/Tosch110/NxtDevKit/blob/master/js/nrs.js
 
@@ -75,7 +75,7 @@ NRS.database = null;
 NRS.databaseSupport = false; 
 
 
-# Functions 
+## Functions 
 
 Use NRS functions, so you have not to write your own for:
 

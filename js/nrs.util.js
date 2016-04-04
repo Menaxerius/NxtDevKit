@@ -305,7 +305,7 @@ var NRS = (function (NRS, $, undefined) {
 		}
 	};
 
-    function calculateOrderTotalImpl(quantityQNT, priceNQT) {
+    function calculateOrderTotalImpl (quantityQNT, priceNQT) {
         if (typeof quantityQNT != "object") {
             quantityQNT = new BigInteger(String(quantityQNT));
         }

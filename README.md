@@ -66,12 +66,125 @@ Using the NRS.sendRequest will be a secure wrapper for your Nxt transactions. Wh
 
 https://github.com/Tosch110/NxtDevKit/blob/master/js/nrs.js
 
-NRS.server = "http://localhost:7876"; \n
-NRS.database = null; \n
-NRS.databaseSupport = false; \n
+//Modify to set your Nxt Node
+
+NRS.server = "http://localhost:7876";
+
+NRS.database = null;
+
+NRS.databaseSupport = false; 
 
 
 # Functions 
 
 Use NRS functions, so you have not to write your own for:
+
+https://github.com/Tosch110/NxtDevKit/blob/master/js/nrs.sever.js
+
+NRS.setServerPassword = function (password)
+
+NRS.sendOutsideRequest = function (url, data, callback, async)
+
+NRS.sendRequest = function (requestType, data, callback, isAsync)
+
+NRS.processAjaxRequest = function (requestType, data, callback, isAsync)
+
+NRS.verifyAndSignTransactionBytes = function (transactionBytes, signature, requestType, data, callback, response, extra)
+
+NRS.verifyTransactionBytes = function (byteArray, requestType, data, attachment)
+
+NRS.verifyTransactionTypes = function (byteArray, transaction, requestType, data, pos, attachment)
+
+NRS.broadcastTransactionBytes = function (transactionData, callback, originalResponse, originalData)
+
+https://github.com/Tosch110/NxtDevKit/blob/master/js/nrs.util.js
+
+NRS.formatVolume = function (volume)
+
+NRS.formatWeight = function (weight)
+
+NRS.formatOrderPricePerWholeQNT = function (price, decimals)
+
+NRS.calculateOrderPricePerWholeQNT = function (price, decimals, returnAsObject)
+
+NRS.calculatePricePerWholeQNT = function (price, decimals)
+
+function calculateOrderTotalImpl (quantityQNT, priceNQT)
+
+NRS.calculateOrderTotalNQT = function (quantityQNT, priceNQT)
+
+NRS.calculateOrderTotal = function (quantityQNT, priceNQT)
+
+NRS.calculatePercentage = function (a, b, rounding_mode)
+
+NRS.convertToNXT = function (amount, returnAsObject)
+
+NRS.amountToPrecision = function (amount, decimals)
+
+NRS.convertToNQT = function (currency)
+
+NRS.convertToQNTf = function (quantity, decimals, returnAsObject) 
+
+NRS.convertToQNT = function (quantity, decimals)
+
+NRS.format = function (params, no_escaping)
+
+NRS.formatQuantity = function (quantity, decimals, no_escaping)
+
+NRS.formatAmount = function (amount, round, no_escaping)
+
+NRS.fromEpochTime = function (epochTime)
+
+NRS.toEpochTime = function (currentTime)
+
+NRS.formatTimestamp = function (timestamp, date_only, isAbsoluteTime) 
+
+NRS.isPrivateIP = function (ip)
+
+NRS.convertToHex16 = function (str)
+
+NRS.convertFromHex16 = function (hex)
+
+NRS.convertFromHex8 = function (hex)
+
+NRS.convertToHex8 = function (str)
+
+NRS.getFormData = function ($form, unmodified)
+
+NRS.mergeMaps = function (mergedMap, toMap, skipAttributes) 
+
+NRS.convertNumericToRSAccountFormat = function (account)
+
+NRS.getAccountTitle = function (object, acc)
+
+NRS.formatStyledAmount = function (strAmount, round)
+
+NRS.getUnconfirmedTransactionsFromCache = function (type, subtype, fields, single)
+
+NRS.completeUnconfirmedTransactionDetails = function (unconfirmedTransaction)
+
+NRS.hasTransactionUpdates = function (transactions)
+
+NRS.setCookie = function (name, value, days)
+
+NRS.getCookie = function (name)
+
+NRS.deleteCookie = function (name)
+
+NRS.validateDecimals = function (maxFractionLength, charCode, val, e) 
+
+NRS.getUrlParameter = function (sParam)
+
+NRS.getUtf8Bytes = function (str)
+
+NRS.getTransactionStatusIcon = function (phasedEntity)
+
+NRS.phasingControlObjectToPhasingParams = function(controlObj)
+
+NRS.strToUTF8Arr = function(str)
+
+function byteArrayToBigInteger(byteArray)
+
+NRS.generateToken = function(message, secretPhrase)
+
 

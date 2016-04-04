@@ -1574,7 +1574,7 @@ var NRS = (function (NRS, $, undefined) {
         }
     }
 
-    function validateCommonPhasingData(byteArray, pos, data, prefix) {
+    function validateCommonPhasingData (byteArray, pos, data, prefix) {
         if (byteArray[pos] != (parseInt(data[prefix + "VotingModel"]) & 0xFF)) {
             return -1;
         }

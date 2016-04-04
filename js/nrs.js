@@ -38,6 +38,7 @@
 var NRS = (function(NRS, $, undefined) {
 	"use strict";
 
+	//Modify to set your Nxt Node
 	NRS.server = "http://localhost:7876";
 	NRS.state = {};
 	NRS.blocks = [];

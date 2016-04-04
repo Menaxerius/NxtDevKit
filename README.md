@@ -13,6 +13,12 @@ No passphrase will leave your JavaSscript, check NRS.sendRequest
 Extraced from NRS Version 1.7.5 https://nxtforum.org/nrs-releases/nrs-v1-7-5/
 Please install Nxt locally and open cors in the configuration as explained here:
 
+	# Enable Cross Origin Filter for the API server.
+	nxt.apiServerCORS=true
+	​
+	# Enable Cross Origin Filter for NRS user interface server.
+	nxt.uiServerCORS=true
+
 https://medium.com/@Damelon/coding-for-nxt-crypto-platform-1-c3580b4cfd38#.vwf0q0b2a
 
 

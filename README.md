@@ -49,3 +49,13 @@ use NRS functions, to submit Nxt requests:
 			console.log('Could not connect to Nxt. Please enable cors like explained on https://github.com/Tosch110/NxtDevKit');
 		}
 	});
+
+# Benefits
+
+Using the NRS.sendRequest will be a secure wrapper for your Nxt transactions. When you POST a transaction with passphrase, it will
+
+1) create the transaction with JavaScript
+
+2) Sign the transaction with passphrase
+
+3) broadcast transaction to local Nxt

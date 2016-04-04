@@ -8,7 +8,7 @@ The NRS finds the local Nxt instance, any transaction that will go through the w
 
 No passphrase will leave your JavaSscript, check NRS.sendRequest
 
-# Documentation & Installation
+# Installation
 
 Extraced from NRS Version 1.7.5 https://nxtforum.org/nrs-releases/nrs-v1-7-5/
 Please install Nxt locally and open cors in the configuration as explained here:
@@ -59,3 +59,19 @@ Using the NRS.sendRequest will be a secure wrapper for your Nxt transactions. Wh
 2) Sign the transaction with passphrase
 
 3) broadcast transaction to local Nxt
+
+## Documentation
+
+# Variables
+
+https://github.com/Tosch110/NxtDevKit/blob/master/js/nrs.js
+
+NRS.server = "http://localhost:7876"; \n
+NRS.database = null; \n
+NRS.databaseSupport = false; \n
+
+
+# Functions 
+
+Use NRS functions, so you have not to write your own for:
+

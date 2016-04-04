@@ -16,6 +16,8 @@ Find a public node with open API and cors enabled on
 
 http://nxtpeers.com
 
+Insert this into server variable of js/nrs.js
+
 Hallmarked nodes provide an extra layer of security.
 
 ### Localhost

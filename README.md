@@ -3,8 +3,8 @@ Javascript development framework for Nxt. Create transactions with Javascript, g
 
 # Why?
 
-The NxtDevKit is a light version of the full NRS which was developed by Nxt developers to work with the Nxt API and JavaScript.
-The NRS finds the local Nxt instance, any transaction that will go through the wrapper will be signed locally and then submitted to Nxt.
+The NxtDevKit is a light version of the full NRS which was developed by Nxt developers to work with the Nxt API and JavaScript in the Nxt Wallet.
+Setup the server in nrs.js (default localhost) to use your Nxt node, any transaction that will go through the wrapper will be signed with Javascript and then submitted to the Nxt API.
 
 No passphrase will leave your JavaSscript, check NRS.sendRequest
 

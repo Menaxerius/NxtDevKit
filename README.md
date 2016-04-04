@@ -8,9 +8,13 @@ The NRS finds the local Nxt instance, any transaction that will go through the w
 
 No passphrase will leave your JavaSscript, check NRS.sendRequest
 
-# Documentation
+# Documentation & Installation
 
 Extraced from NRS Version 1.7.5 https://nxtforum.org/nrs-releases/nrs-v1-7-5/
+Please install Nxt locally and open cors in the configuration as explained here:
+
+https://medium.com/@Damelon/coding-for-nxt-crypto-platform-1-c3580b4cfd38#.vwf0q0b2a
+
 
 # Nxt Api
 

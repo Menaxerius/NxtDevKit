@@ -46,8 +46,6 @@ use NRS functions, to submit Nxt requests:
 			$("#blockchainStatus").html('Current Block: '+response.numberOfBlocks+' - Current Nxt Time '+response.time);
 
 		} else {
-			$.growl($.t("error_search_no_results"), {
-				"type": "danger"
-			});
+			console.log('Could not connect to Nxt. Please enable cors like explained on https://github.com/Tosch110/NxtDevKit');
 		}
 	});
